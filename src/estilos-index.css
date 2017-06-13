@@ -54,3 +54,19 @@ header nav{
  header nav ul a:hover{
  	background: #05a411;
  }
+
+ .main{
+ 	width: 90%;
+ 	background: #686666;
+ 	margin: auto;
+ }
+
+ footer{
+ 	width: 90%;
+	background: #07e818;
+	color: #000000;
+	font-size: 20px;
+	font-style: bold;
+ 	margin: 20px auto;
+ 	text-align: center;
+ }
