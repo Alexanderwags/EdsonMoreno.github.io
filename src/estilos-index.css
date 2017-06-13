@@ -24,3 +24,33 @@ body{
  	height: 195px;
  	margin: 2.5px auto;
  }
+
+header nav{
+	background: #07e818;
+	color: #000000;
+	width: 90%;
+	margin: auto;
+}
+
+ header nav ul{
+ 	text-decoration: none;
+ 	display: block;
+ 	margin: auto;
+ }
+
+ nav ul li {
+  	text-decoration: none;
+ 	display: inline-block;
+ 	font-size: 20px;	
+ }
+
+ header nav ul li a{
+ 	text-decoration: none;
+ 	padding: 10px;
+ 	display: block;
+ 	color: #000000;
+ }
+
+ header nav ul a:hover{
+ 	background: #05a411;
+ }
