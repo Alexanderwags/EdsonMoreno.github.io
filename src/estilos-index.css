@@ -14,4 +14,12 @@ body{
 	background: #434141;
 	width: 80%;
 	padding: 2px;
+	margin: auto;
+	display: block;
+ }
+
+ .baner img{
+ 	width: 95%;
+ 	height: 195px;
+ 	margin: 2.5px auto;
  }
