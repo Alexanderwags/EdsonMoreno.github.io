@@ -13,13 +13,14 @@ body{
 .baner{
 	background: #434141;
 	width: 80%;
-	padding: 2px;
+	height: 200px;
 	margin: auto;
 	display: block;
  }
 
  .baner img{
- 	width: 95%;
+ 	display: block;
+ 	width: 90%;
  	height: 195px;
  	margin: 2.5px auto;
  }
