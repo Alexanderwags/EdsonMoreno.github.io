@@ -60,6 +60,7 @@ header nav ul li a{
 .main{
  	width: 90%;
  	background: #fff;
+ 	margin: auto;
  	
  }
 
@@ -69,6 +70,7 @@ header nav ul li a{
 	margin: 10px auto;
 	float: left;
 	width:75%;
+	text-align: justify;
 }
 .main aside{
 	/*Esta porpiedad CSS3 modifica al modelo de caja, particulamente esa opcion hace que 
@@ -98,5 +100,10 @@ header nav ul li a{
  .desc{
  	font-weight: bold;
  	font-size: 24px;
+ 	color: #07e818;
+ }
+
+ .articulos h2{
+ 	font-size: 28px;
  	color: #07e818;
  }
