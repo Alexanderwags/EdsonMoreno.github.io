@@ -8,6 +8,7 @@ body{
 	background:#282828;
 	color: #ffffff;
 	width:100%;
+	height: 100%;
 }
 
 .baner{
@@ -59,6 +60,8 @@ header nav ul li a{
  	width: 90%;
  	background: #686666;
  	margin: 5px auto;
+ 	height: 100%;
+ 	clear: both;
  }
 
  .main .articulos{
@@ -68,11 +71,15 @@ header nav ul li a{
 	width: 80%;
 }
 .main aside{
+	/*Esta porpiedad CSS3 modifica al modelo de caja, particulamente esa opcion hace que 
+	las medidas se ajusten mediante la suma de tamaño hasta lograr el tamaño asignado
+	mediante la prpiedad width al elemento padre..*/
 	box-sizing: border-box;
 	background: #686666;
 	margin: auto;
 	float: left;
 	width: 20%;
+	height: 100%;
 	border: 1px solid #000000;
 }
 
@@ -81,7 +88,7 @@ header nav ul li a{
 	background: #07e818;
 	color: #000000;
 	font-size: 20px;
-	font-style: bold;
+	font-weight: bold;
  	margin: 20px auto;
  	text-align: center;
  	clear: both;
