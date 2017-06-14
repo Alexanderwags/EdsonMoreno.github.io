@@ -4,6 +4,7 @@
 }
 
 body{
+	display: block;
 	font-size: 18px;
 	background:#282828;
 	color: #ffffff;
@@ -58,10 +59,8 @@ header nav ul li a{
 
 .main{
  	width: 90%;
- 	box-sizing: border-box;
- 	/*background: #686666;*/
  	background: #fff;
- 	margin: 15px auto;
+ 	
  }
 
  .main .articulos{
@@ -77,7 +76,7 @@ header nav ul li a{
 	mediante la prpiedad width al elemento padre..*/
 	box-sizing: border-box;
 	background: #686666;
-	margin: auto;
+	margin: 10px auto;
 	float: left;
 	width: 20%;
 	min-height: 400px;
@@ -94,4 +93,10 @@ header nav ul li a{
  	margin: 20px auto;
  	text-align: center;
  	clear: both;
+ }
+
+ .desc{
+ 	font-weight: bold;
+ 	font-size: 24px;
+ 	color: #07e818;
  }
