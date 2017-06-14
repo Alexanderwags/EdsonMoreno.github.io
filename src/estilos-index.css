@@ -71,6 +71,8 @@ header nav ul li a{
 	float: left;
 	width:75%;
 	text-align: justify;
+	/*SANGRIA*/
+	text-indent: 25px;
 }
 .main aside{
 	/*Esta porpiedad CSS3 modifica al modelo de caja, particulamente esa opcion hace que 
