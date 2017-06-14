@@ -80,7 +80,8 @@ header nav ul li a{
 	margin: auto;
 	float: left;
 	width: 20%;
-	height: 90%;
+	min-height: 400px;
+	padding: 13px;
 	border: 1px solid #000000;
 }
 
