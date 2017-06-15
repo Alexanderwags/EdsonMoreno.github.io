@@ -57,6 +57,10 @@ header nav ul li a{
  	background: #05a411;
  }
 
+ article {
+ 	margin-top: 20px;
+ }
+
 .main{
  	width: 90%;
  	background: #fff;
