@@ -88,7 +88,11 @@ header nav ul li a{
 	border: 2px solid #fff;
 }
 
- footer{
+.main aside .tux{
+	padding: 1px;
+}
+
+footer{
  	width: 90%;
 	background: #07e818;
 	color: #000000;
