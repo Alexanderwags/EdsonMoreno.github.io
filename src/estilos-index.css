@@ -3,9 +3,14 @@
 	padding:0;
 }
 
+@font-face{
+	font-family: 'Comic';
+	src:url('comic.ttf');
+}
+
 body{
 	display: block;
-	font-size: 18px;
+	font:normal 18px "Comic";
 	background:#282828;
 	color: #ffffff;
 	width:100%;
@@ -43,7 +48,8 @@ header nav{
 header nav ul li {
   	text-decoration: none;
  	display: inline-block;
- 	font-size: 20px;	
+ 	font-size: 20px;
+ 	font: "Comic";	
  }
 
 header nav ul li a{
@@ -77,6 +83,7 @@ header nav ul li a{
 	text-align: justify;
 	/*SANGRIA*/
 	text-indent: 25px;
+	font: normal 18px "Comic";
 }
 .main aside{
 	/*Esta porpiedad CSS3 modifica al modelo de caja, particulamente esa opcion hace que 
