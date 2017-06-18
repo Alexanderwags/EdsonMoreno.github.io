@@ -132,3 +132,11 @@ footer{
  .main .articulos b{
  	color: #28FB05;
  }
+
+.tux{
+	 transition: transform 0.3s ease-in-out 0.1s;
+}
+
+ .tux:hover{
+ 	transform: scale(1.5);
+ }
